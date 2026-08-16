@@ -7,7 +7,7 @@ A refined, translucent "Frosty" experience for the Windows 11 Notification Cente
 [![Windhawk](https://img.shields.io/badge/Requires-Windhawk-blue?style=flat-square)](https://windhawk.net/)
 [![Style](https://img.shields.io/badge/Style-Frosty_Glass-lightgrey?style=flat-square)](#)
 
-This configuration provides a modern **Frosty Glass** aesthetic for your Notification Center, Calendar, and Control Center. It utilizes custom translucent `AcrylicBrush` effects to create a soft, blurred interface that feels perfectly integrated with the desktop environment.
+This configuration provides a modern **Frosty Glass** aesthetic for your Notification Center, Calendar, and Control Center. It utilizes custom translucent `WindhawkBlur` effects to create a soft, blurred interface that feels perfectly integrated with the desktop environment.
 
 ## 📸 Showcase
 
@@ -56,8 +56,9 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <summary>Content to import (click to expand)</summary>
 
 ```yaml
+theme: ''
 styleConstants:
-  - Background=<AcrylicBrush TintColor="#1000000F"/>
+  - Background=<WindhawkBlur BlurAmount="20" TintColor="{ThemeResource SystemChromeDarkColor}" TintOpacity="0.15" />
   - BorderBrush2=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeLowColor}" Offset="0.25" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="1" /></LinearGradientBrush>
   - BorderThickness=1
   - CornerRadius=10
@@ -143,6 +144,7 @@ controlStyles:
       - BorderBrush:=$BorderBrush
       - BorderThinkness:=$BorderThickness
       - Background:=$Background
+      - CornerRadius:=$CornerRadius
   - target: Border#WADFeatureFooter
     styles:
       - BorderBrush:=Transparent
@@ -159,19 +161,15 @@ controlStyles:
   - target: JumpViewUI.JumpListListViewItem > Grid#LayoutRoot > Border#BackgroundBorder
     styles:
       - CornerRadius:=4.5
+      - Margin=4,0,4,0
   - target: JumpViewUI.SystemItemListViewItem > Grid#LayoutRoot > Border#BackgroundBorder
     styles:
       - CornerRadius:=4.5
+      - Margin=4,0,4,0
   - target: Grid#NotificationCenterGrid
     styles:
       - VerticalAlignment:=2
   - target: Border#ToastBackgroundBorder2
-    styles:
-      - Background:=$Background
-      - BorderBrush:=$BorderBrush
-      - BorderThickness:=$BorderThickness
-      - CornerRadius:=$CornerRadius
-  - target: Border#ToastBackgroundBorder
     styles:
       - Background:=$Background
       - BorderBrush:=$BorderBrush
@@ -223,6 +221,12 @@ controlStyles:
   - target: ContentPresenter#PageContent
     styles:
       - Background:=Transparent
+  - target: Windows.UI.Xaml.Controls.Border#ToastBackgroundBorder
+    styles:
+      - Background:=$Background
+      - BorderBrush:=$BorderBrush
+      - BorderThickness:=$BorderThickness
+      - CornerRadius:=$CornerRadius
   - target: Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.Border#ItemOpaquePlating
     styles:
       - CornerRadius:=7
@@ -250,13 +254,16 @@ controlStyles:
       - BorderThickness:=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius:=$CornerRadius
-      - Margin=-4.5,-2,-4.5,-2
-      - Height=Auto
-  - target: Windows.UI.Xaml.Controls.ScrollViewer#JumpListScroller
+  - target: ScrollViewer#JumpListScroller
     styles:
-      - Margin=-2
+      - Margin=0,-2,0,-2
   - target: Windows.UI.Xaml.Controls.Grid#SystemItemsContainer > Windows.UI.Xaml.Controls.Border > JumpViewUI.SystemItemListView#SystemItemList
     styles:
       - Margin:=0,3,0,0
+themeResourceVariables:
+  - ''
+resourceVariables:
+  - variableKey: ''
+    value: ''
 ```
 </details>
