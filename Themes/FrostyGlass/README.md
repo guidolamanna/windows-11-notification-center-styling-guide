@@ -35,7 +35,7 @@ Complete the look across your entire UI! Check out my other Frosty Glass styling
 
 A huge thank you to [Ramen Software](https://github.com/ramensoftware) for creating Windhawk. This configuration was heavily inspired by the official [Windows 11 Notification Center Styling Guide](https://github.com/ramensoftware/windows-11-notification-center-styling-guide) and the Windhawk modding community.
 
-## Theme selection
+## 🎚️ Theme selection
 
 The theme is integrated into the mod and can be selected directly from the mod's
 settings:
@@ -44,7 +44,7 @@ settings:
 * Go to the "Settings" tab.
 * Select the theme and save the settings.
 
-## Manual installation
+## 📦 Manual installation
 
 The theme styles can also be imported manually. To do that, follow these steps:
 
