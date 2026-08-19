@@ -233,6 +233,7 @@ controlStyles:
       - Visibility=0
       - BorderBrush:=$BorderBrush
       - BorderThickness:=$BorderThickness
+      - Margin=4,0,4,1
   - target: Windows.UI.Xaml.Controls.ListViewItem
     styles:
       - Margin=0,0,0,3
