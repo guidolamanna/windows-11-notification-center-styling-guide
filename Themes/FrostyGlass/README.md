@@ -261,10 +261,5 @@ controlStyles:
   - target: Windows.UI.Xaml.Controls.Grid#SystemItemsContainer > Windows.UI.Xaml.Controls.Border > JumpViewUI.SystemItemListView#SystemItemList
     styles:
       - Margin:=0,3,0,0
-themeResourceVariables:
-  - ''
-resourceVariables:
-  - variableKey: ''
-    value: ''
 ```
 </details>
