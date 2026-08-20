@@ -174,14 +174,7 @@ controlStyles:
     styles:
       - Background=Transparent
       - //Target= Notification Center > Progress Bar > Empty Track
-  - target: Border#ToastBackgroundBorder2
-    styles:
-      - Background:=$Alt
-      - BorderBrush=Transparent
-      - CornerRadius=15
-      - Shadow:=
-      - //Target= Active Notification > Notification Plate (older name)
-  - target: Border#ToastBackgroundBorder
+  - target: Border#ToastBackgroundBorder, Border#ToastBackgroundBorder2
     styles:
       - Background:=$Alt
       - BorderBrush=Transparent

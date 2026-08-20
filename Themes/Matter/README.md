@@ -135,13 +135,7 @@ controlStyles:
     styles:
       - Background:= $transparent
       - Shadow :=
-  - target: Border#ToastBackgroundBorder2
-    styles:
-      - Background:=$base
-      - BorderThickness=0,0,0,0
-      - CornerRadius=16
-      - Shadow :=
-  - target: Border#ToastBackgroundBorder
+  - target: Border#ToastBackgroundBorder, Border#ToastBackgroundBorder2
     styles:
       - Background:=$base
       - BorderThickness=0,0,0,0

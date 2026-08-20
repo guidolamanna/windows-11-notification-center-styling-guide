@@ -140,12 +140,7 @@ controlStyles:
     styles:
       - CornerRadius=$InnerRadius
       - //Page Content Border, not sure which one
-  - target: Border#ToastBackgroundBorder2
-    styles:
-      - BorderThickness=1
-      - BorderBrush:=$ThemeOutBorder
-      - //Notification Toast > Border (older name)
-  - target: Border#ToastBackgroundBorder
+  - target: Border#ToastBackgroundBorder, Border#ToastBackgroundBorder2
     styles:
       - BorderThickness=1
       - BorderBrush:=$ThemeOutBorder

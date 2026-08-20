@@ -101,12 +101,7 @@ controlStyles:
   - target: ActionCenter.FlexibleToastView#FlexibleNormalToastView
     styles:
       - Background:=<SolidColorBrush Color="Transparent"/>
-  - target: Border#ToastBackgroundBorder2
-    styles:
-      - Background:=$CommonBgBrush
-      - BorderThickness=0,0,0,0
-      - CornerRadius=15
-  - target: Border#ToastBackgroundBorder
+  - target: Border#ToastBackgroundBorder, Border#ToastBackgroundBorder2
     styles:
       - Background:=$CommonBgBrush
       - BorderThickness=0,0,0,0

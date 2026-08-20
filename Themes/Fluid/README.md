@@ -70,12 +70,7 @@ controlStyles:
   - target: Border#PopupBorder
     styles:
       - CornerRadius=$CornerRadius
-  - target: Border#ToastBackgroundBorder2
-    styles:
-      - BorderBrush:=$BorderBrush
-      - BorderThickness=1
-      - CornerRadius=$CornerRadius
-  - target: Border#ToastBackgroundBorder
+  - target: Border#ToastBackgroundBorder, Border#ToastBackgroundBorder2
     styles:
       - BorderBrush:=$BorderBrush
       - BorderThickness=1

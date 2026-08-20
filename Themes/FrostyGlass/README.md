@@ -168,7 +168,7 @@ controlStyles:
   - target: Grid#NotificationCenterGrid
     styles:
       - VerticalAlignment:=2
-  - target: Border#ToastBackgroundBorder2
+  - target: Border#ToastBackgroundBorder, Border#ToastBackgroundBorder2
     styles:
       - Background:=$Background
       - BorderBrush:=$BorderBrush
@@ -220,12 +220,6 @@ controlStyles:
   - target: ContentPresenter#PageContent
     styles:
       - Background:=Transparent
-  - target: Windows.UI.Xaml.Controls.Border#ToastBackgroundBorder
-    styles:
-      - Background:=$Background
-      - BorderBrush:=$BorderBrush
-      - BorderThickness:=$BorderThickness
-      - CornerRadius:=$CornerRadius
   - target: Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.Border#ItemOpaquePlating
     styles:
       - CornerRadius:=7

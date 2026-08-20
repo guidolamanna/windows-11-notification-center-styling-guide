@@ -374,12 +374,7 @@ controlStyles:
   - target: ActionCenter.FlexibleToastView#FlexibleNormalToastView
     styles:
       - Background:=$Transparent
-  - target: Border#ToastBackgroundBorder2
-    styles:
-      - Background:=$Base
-      - BorderThickness=0,0,0,0
-      - CornerRadius=$Radius
-  - target: Border#ToastBackgroundBorder
+  - target: Border#ToastBackgroundBorder, Border#ToastBackgroundBorder2
     styles:
       - Background:=$Base
       - BorderThickness=0,0,0,0

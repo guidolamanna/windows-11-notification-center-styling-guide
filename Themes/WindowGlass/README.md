@@ -155,13 +155,7 @@ controlStyles:
   - target: ActionCenter.FlexibleToastView#FlexibleNormalToastView
     styles:
       - Background=Transparent
-  - target: Border#ToastBackgroundBorder2
-    styles:
-      - Background:=$Background
-      - BorderThickness=$BorderThickness
-      - CornerRadius=16
-      - BorderBrush:=$BorderBrush
-  - target: Border#ToastBackgroundBorder
+  - target: Border#ToastBackgroundBorder, Border#ToastBackgroundBorder2
     styles:
       - Background:=$Background
       - BorderThickness=$BorderThickness
@@ -573,13 +567,7 @@ controlStyles:
   - target: ActionCenter.FlexibleToastView#FlexibleNormalToastView
     styles:
       - Background=Transparent
-  - target: Border#ToastBackgroundBorder2
-    styles:
-      - Background:=$Background
-      - BorderThickness=$BorderThickness
-      - CornerRadius=16
-      - BorderBrush:=$BorderBrush
-  - target: Border#ToastBackgroundBorder
+  - target: Border#ToastBackgroundBorder, Border#ToastBackgroundBorder2
     styles:
       - Background:=$Background
       - BorderThickness=$BorderThickness
