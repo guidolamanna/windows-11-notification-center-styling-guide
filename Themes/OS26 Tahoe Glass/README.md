@@ -38,7 +38,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <summary>Content to import (click to expand)</summary>
 
 ```yaml
-theme: 'OS26 Tahoe Glass (By WasiXGamer)'
+theme: OS26 Tahoe Glass (By WasiXGamer)
 styleConstants:
   - ''
 controlStyles:
@@ -193,10 +193,14 @@ controlStyles:
       - RadiusX=6
       - RadiusY=6
       - Margin=0,-7.5,0,7.5
-  - target: ScrollViewer > ScrollContentPresenter > Border > ControlCenter.ControlCenterPage > Grid#RootGrid > Grid#RootContent > Grid#ControlCenterRegion > ControlCenter.ControlCenterView#ControlCenterView > Grid#RootGrid > Grid#L1Grid > ContentControl#SlidersGroup > ContentPresenter > GridView#RootGridView > Border > ScrollViewer#ScrollViewer > Border#Root
+  - target: ss.ControlCenterPage > Grid#RootGrid > Grid#RootContent > Grid#ControlCenterRegion > ControlCenter.ControlCenterView#ControlCenterView > Grid#RootGrid > Grid#L1Grid > ContentControl#SlidersGroup > ContentPresenter > GridView#RootGridView > Border > ScrollViewer#ScrollViewer > Border#Root
     styles:
-      - CornerRadius=25
-      - Background:=<WindhawkBlur BlurAmount="8" TintColor="#2D101010"/>
+      - CornerRadius=6
+      - Background:=red
+      - Height=auto
+  - target: ControlCenter.ControlCenterPage > Grid#RootGrid > Grid#RootContent > Grid#ControlCenterRegion > ControlCenter.ControlCenterView#ControlCenterView > Grid#RootGrid > Grid#L1Grid > ContentControl#SlidersGroup > ContentPresenter > GridView#RootGridView > Border 
+    styles:
+      - Background:=transparent
       - Height=auto
   - target: ControlCenter.ControlCenterPage > Grid#RootGrid > Grid#RootContent > Grid#ControlCenterRegion > ControlCenter.ControlCenterView#ControlCenterView > Grid#RootGrid > Grid#L1Grid > ContentControl#SlidersGroup > ContentPresenter > GridView#RootGridView > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsStackPanel > GridViewItem > Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter#Root > ContentControl > ContentPresenter > ControlCenter.AccessibleItemContainer > Grid#RootGrid > ContentControl#QuickActionContentControl > ContentPresenter > Grid > ControlCenter.AsyncSlider > Grid > Grid#SliderContainer > Grid#HorizontalTemplate > Windows.UI.Xaml.Controls.Primitives.Thumb#HorizontalThumb
     styles:
@@ -236,13 +240,13 @@ controlStyles:
       - Background:=<WindhawkBlur BlurAmount="8" TintColor="#2D101010"/>
   - target: ControlCenter.ControlCenterPage > Grid#RootGrid > Grid#RootContent > Grid#ControlCenterRegion
     styles:
-      - Height=auto
+      - Height=Auto
   - target: ControlCenter.ControlCenterView#ControlCenterView > Grid#RootGrid > Grid#L1Grid > ContentControl#TogglesGroup > ContentPresenter > ControlCenter.PaginatedGridView > Grid > Border#NextPageSensor
     styles:
-      - Margin=0,400,0,0
+      - Margin=0,300,0,0
   - target: ControlCenter.ControlCenterPage > Grid#RootGrid > Grid#RootContent > Grid#ControlCenterRegion > ControlCenter.ControlCenterView#ControlCenterView > Grid#RootGrid > Grid#L1Grid > ContentControl#TogglesGroup > ContentPresenter > ControlCenter.PaginatedGridView > Grid > GridView#RootGridView > Border > ScrollViewer#ScrollViewer > Border#Root > Grid
     styles:
-      - Margin=0,-100,0,-100
+      - Margin=0,-50,0,-50
   - target: GridViewItem > Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter#Root > ContentControl > ContentPresenter > Grid > ControlCenter.PaginatedToggleButton#ToggleButton > ContentPresenter#ContentPresenter
     styles:
       - // [Other Icons]
@@ -301,5 +305,8 @@ controlStyles:
       - CornerRadius=25
       - BorderThickness=2
       - Background:=<WindhawkBlur BlurAmount="16" TintColor="#761E1E1E"/>
+themeResourceVariables:
+  - ''
+
 ```
 </details>
