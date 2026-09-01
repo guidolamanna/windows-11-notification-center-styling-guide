@@ -1,4 +1,4 @@
-# Fluid theme for Windows 11 Notification Center Styler
+# OS26 Tahoe Glass Theme for Windows 11 Notification Center Styler
 
 This theme is Designed to make Windows 11 Notification Center look like MacOS Tahoe. Suggestions, and Contributions are welcome!
 
