@@ -1,6 +1,6 @@
-# OS26 Tahoe Glass Theme for Windows 11 Notification Center Styler
+# OS26 Tahoe Glass theme for Windows 11 Notification Center Styler
 
-This theme is Designed to make Windows 11 Notification Center look like MacOS Tahoe. Suggestions, and Contributions are welcome!
+This theme is designed to make the Windows 11 Notification Center look like macOS Tahoe. Suggestions and contributions are welcome!
 
 **Author**: [WasiXGamer](https://github.com/wasixgamer)
 
@@ -8,19 +8,20 @@ This theme is Designed to make Windows 11 Notification Center look like MacOS Ta
 
 ## Previews
 
-![Preview-1](preview-1.png)
+![Preview 1](preview-1.png)
 
-![Preview-2](preview-2.png)
+![Preview 2](preview-2.png)
 
-![Preview-3](preview-3.png)
+![Preview 3](preview-3.png)
 
-## Credits, and Usability
+## Credits and usage
 
-The theme is allowed be edited and distributed. If showcasing the style, or its fork, Please give credits to the Theme Author!
+The theme may be edited and distributed. If showcasing the style or a fork of it, please give credit to the theme author!
 
 ## Theme selection
 
-The theme is integrated into the mod and can be selected directly from the mod's settings:
+The theme is integrated into the mod and can be selected directly from the mod's
+settings:
 
 * Open the Windows 11 Notification Center Styler mod in Windhawk.
 * Go to the "Settings" tab.
@@ -38,9 +39,6 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <summary>Content to import (click to expand)</summary>
 
 ```yaml
-theme: OS26 Tahoe Glass (By WasiXGamer)
-styleConstants:
-  - ''
 controlStyles:
   - target: ActionCenter.NotificationCenterPage > Grid#RootGrid > Grid#RootContent > Grid#NotificationCenterGrid
     styles:
@@ -305,8 +303,5 @@ controlStyles:
       - CornerRadius=25
       - BorderThickness=2
       - Background:=<WindhawkBlur BlurAmount="16" TintColor="#761E1E1E"/>
-themeResourceVariables:
-  - ''
-
 ```
 </details>

@@ -95,6 +95,7 @@ Notification Center Styler mod. The following themes are available:
 | [Borderless](Themes/Borderless/README.md) | [![Borderless](Themes/Borderless/screenshot-small.png)](Themes/Borderless/screenshot.png)
 | [Densy](Themes/Densy/README.md) | [![Densy](Themes/Densy/screenshot-small.png)](Themes/Densy/screenshot.png)
 | [FrostyGlass](Themes/FrostyGlass/README.md) | [![FrostyGlass](Themes/FrostyGlass/screenshot-small.png)](Themes/FrostyGlass/screenshot.png)
+| [OS26 Tahoe Glass](Themes/OS26%20Tahoe%20Glass/README.md) | [![OS26 Tahoe Glass](Themes/OS26%20Tahoe%20Glass/screenshot-small.png)](Themes/OS26%20Tahoe%20Glass/screenshot.png)
 
 ## Style examples
 
