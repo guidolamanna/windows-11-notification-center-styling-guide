@@ -191,11 +191,6 @@ controlStyles:
       - RadiusX=6
       - RadiusY=6
       - Margin=0,-7.5,0,7.5
-  - target: ss.ControlCenterPage > Grid#RootGrid > Grid#RootContent > Grid#ControlCenterRegion > ControlCenter.ControlCenterView#ControlCenterView > Grid#RootGrid > Grid#L1Grid > ContentControl#SlidersGroup > ContentPresenter > GridView#RootGridView > Border > ScrollViewer#ScrollViewer > Border#Root
-    styles:
-      - CornerRadius=6
-      - Background:=red
-      - Height=auto
   - target: ControlCenter.ControlCenterPage > Grid#RootGrid > Grid#RootContent > Grid#ControlCenterRegion > ControlCenter.ControlCenterView#ControlCenterView > Grid#RootGrid > Grid#L1Grid > ContentControl#SlidersGroup > ContentPresenter > GridView#RootGridView > Border 
     styles:
       - Background:=transparent
